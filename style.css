@@ -7,7 +7,7 @@ body{
   height: 100%;
   width: 100%; */
 }
-
+/* Begin style for nav */
 ul {
   list-style-type: none;
   margin: 0;
@@ -35,7 +35,7 @@ li a:hover {
 .active {
   background-color: #4CAF50;
 }
-
+/* End style for nav */
 
 /* End style for every page  */
 
