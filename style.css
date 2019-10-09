@@ -1,11 +1,5 @@
 /* Begin style for every page */
-html {
-  background: url(https://naldzgraphics.net/wp-content/uploads/2014/08/1-old-rusty-texture.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
+
 body{
   /* background-image: url(https://naldzgraphics.net/wp-content/uploads/2014/08/1-old-rusty-texture.jpg);
   background-repeat: no-repeat;
