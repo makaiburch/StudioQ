@@ -84,6 +84,82 @@ p.home{
 
 /* End style for contact page  */
 
+/* Navbar */
+/* background color of nav bar */
+.navBar {
+overflow: hidden;
+background-color: black;
+position:;
+width:100%;
+}
+/* styling for the links */
+.navBar a{
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 40px;
+  text decoration: none;
+  font-size: 175%;
+
+}
+/* dont show the hmburger stack until we want it */
+.navBar.icon{
+  display: none;
+}
+/* end of nav style */
+
+/* end of media style */
+
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+/* End of Navbar */
+
+/* hamburger stack for Navbar */
+@media screen and (min-width: 600px) {
+  .navBar a:not(:first-child) {display: none;}
+  .navBar a.icon{
+    float: right;
+    display: block;
+  }
+  .navBar.responsive {position: relative;}
+  .navBar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navBar.responsive a {
+    float:none;
+    display:block;
+    text-align: left;
+  }
+/* End of hamburger stack */
+
 /* Begin style for services page  */
 
 /* End syle for services page   */
