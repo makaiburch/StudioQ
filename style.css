@@ -292,3 +292,212 @@ td{
 
 
 /* End style for about us page  */
+  /* begin style for every page */
+html{
+background-image: : backround.jpg;
+}
+
+
+
+
+bg-color rgba(= 45, 48 ,48, .1);
+
+/* backround color of the nav bar */
+.navBar a{
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  margin-top: -7%;
+  padding-top: 0%;
+
+}
+/* styling the links */
+.navBar a{
+  float: left;
+  display: block;
+  color: #add8e6;
+  text-align: center;
+  padding: 20px 40px;
+  text-decoration: none;
+  font-size: 175%;
+}
+/* dont show hamburger stack until we want it */
+.navBar .icon{
+  display: none;
+}
+/* end of nav style */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+.icon {
+  z-index: 5;
+  color: black;
+}
+/* end of style for every page */
+
+/* begin style for home page */
+
+
+
+.parallax {
+  padding: 100px; /*puts padding around the edge of the image so content doesn't go to the edge*/
+  background-image: url("background.jpg");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.scrollover {
+  padding: 100px;
+  background-color: pink;
+  height: 1000px;
+}
+
+.parallaxtext {
+  margin:0;
+  padding: 10px; /*puts padding around the text*/
+  font-size: 50px;
+  text-align: center;
+  color: pink;
+  background-color: rgba(255, 255, 255, .5); /*The .5 at the end makes the background see-through.
+  Try different values instead of the .5 to see how that changes the effect*/
+}
+
+.scrollovertext {
+  margin: 0;
+  text-align: center;
+  font-size: 100px;
+}
+
+/* end style for home page */
+
+/* begin style for contact page */
+
+}
+p {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+}
+p. {
+
+}
+
+p.contact{
+  text-align: center;
+  font-size: 40px;
+  color: #60C4A0;
+  background-color: white;
+}
+
+/* end style for contact page */
+/* begin of bio people */
+/* container */
+.container {
+  position: relative;
+  width: 50%;
+}
+/* Make the image to responsive */
+.bioimage {
+  width: 200%;
+  height: auto;
+}
+
+
+/* The overlay effect (full height and width) - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #83A7C9;
+  overflow: hidden;
+  width: 200%;
+  height: 100%;
+  transform: scale(0);
+  transition: 1.5s ease;
+}
+
+/* When you mouse over the container, the overlay text will "zoom" in display */
+.container:hover .overlay {
+  transform: scale(1);
+}
+/* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
+.text {
+  color: white;
+  font-size: 8px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  word-wrap: break-word;
+}
+table{
+  width: 100%;
+}
+td{
+  width: 33%;
+}
+.contactbody {
+  padding-top: 7%;
+}
+/* end of bio people */
+/* begin style for services page */
+
+/* end style for services page */
+
+/* begin style for about page */
+
+/* end style for about page */
+
+@media screen and (max-width: 600px){
+  .navBar a:not(:first-child) {display: none;}
+  .navBar a.icon {
+    color: black;
+  float: right;
+  display: block;
+  }
+  .navBar.responsive {position: relative;}
+  .navBar.responsive .icon {
+    color: black;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navBar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
