@@ -165,5 +165,130 @@ li a:hover {
 /* End syle for services page   */
 
 /* Begin style for about us page  */
+  /* Begin style for every page */
+html{
+  background-color: grey;
+  background-position: center;
+}
+p.home{
+  color: purple;
+}
+
+
+/* End style for nav */
+
+/* background color of navbar  */
+.navBar {
+  overflow: hidden;
+  background-color: black;
+  width:100%;
+
+}
+/* end background color for navbar */
+
+/* styling the links  */
+.navBar a{
+  float: left;
+  display: block;
+  color: #add8e6;
+  text-align: center;
+  padding: 20px 40px;
+  text-decoration: none;
+  font-size: 175%;
+}
+.navBar .icon{
+  display: none;
+}
+/* end nav style  */
+
+/* Begin style for about us page  */
+h1 {
+  color:#add8e6;
+  font-size: 500%;
+  font-family: "script", cursive, sans-serif;
+  padding-left: 35%;
+}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 50%;
+}
+
+/* Make the image to responsive */
+.image {
+  width: 200%;
+  height: auto;
+}
+
+/* The overlay effect (full height and width) - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #add8e6;
+  overflow: hidden;
+  width: 200%;
+  height: 100%;
+  transform: scale(0);
+  transition: 1.5s ease;
+}
+
+/* When you mouse over the container, the overlay text will "zoom" in display */
+.container:hover .overlay {
+  transform: scale(1);
+}
+/* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
+.text {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  word-wrap: break-word;
+}
+table{
+  width: 100%;
+}
+td{
+  width: 33%;
+}
+
+@media screen and (max-width: 1200px){
+
+}
+@media screen and (max-width: 1000px){
+
+}
+@media screen and (max-width: 800px){
+
+}
+@media screen and (max-width: 700px) {
+  .navBar a:not(:first-child) {display: none;}
+  .navBar a.icon{
+    float: right;
+    display: block;
+}
+.navBar.responsive {position: relative;}
+.navBar.responsive .icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.navBar.responsive a {
+  float: none;
+  display: block;
+  text-align: left;
+ }
+}
+
+
+
+
+/* End style for about us page  */
+
 
 /* End style for about us page  */
